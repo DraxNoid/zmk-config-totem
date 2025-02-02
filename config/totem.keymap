@@ -94,10 +94,10 @@
 
         r6 {
             bindings = <
-              &kp Q           &kp G  &kp W         &kp R      &kp NUMBER_1    &trans  &trans  &trans  &trans  &trans
-              &kp LEFT_SHIFT  &kp A  &kp S         &kp D      &kp NUMBER_2    &trans  &trans  &trans  &trans  &trans
-&kp NUMBER_7  &kp C           &kp U  &kp X         &kp LCTRL  &kp F           &trans  &trans  &trans  &trans  &trans  &trans
-                                     &kp NUMBER_5  &kp E      &kp SPACE       &trans  &trans  &to 0
+                  &kp Q           &kp G    &kp W         &kp R      &kp NUMBER_1    &trans  &trans  &trans  &trans  &trans
+                  &kp LEFT_SHIFT  &kp A    &kp S         &kp D      &kp NUMBER_2    &trans  &trans  &trans  &trans  &trans
+&mt TAB NUMBER_7  &kp C           &mt U Z  &kp X         &kp LCTRL  &kp F           &trans  &trans  &trans  &trans  &trans  &trans
+                                           &kp NUMBER_5  &kp E      &kp SPACE       &trans  &trans  &to 0
             >;
         };
 
