@@ -33,33 +33,11 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&kp ESC>;
-        };
-
         combo_tvp {
             timeout-ms = <100>;
             key-positions = <11 12 13>;
             bindings = <&tog 5>;
-        };
-    };
-
-    macros {
-        gif: gif {
-            label = "giphy";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp N2>,
-                <&macro_release>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp G &kp I &kp F>;
+            layers = <0>;
         };
     };
 
@@ -94,10 +72,10 @@
 
         r6 {
             bindings = <
-                  &kp Q           &kp G    &kp W                  &kp R      &kp NUMBER_1    &trans  &trans  &trans  &trans  &trans
-                  &kp LEFT_SHIFT  &kp A    &kp S                  &kp D      &kp NUMBER_2    &trans  &trans  &trans  &trans  &trans
-&mt TAB NUMBER_7  &kp C           &mt U Z  &kp X                  &kp LCTRL  &kp F           &trans  &trans  &trans  &trans  &trans  &trans
-                                           &mt NUMBER_5 NUMBER_6  &kp E      &kp SPACE       &trans  &trans  &to 0
+              &kp Q           &kp G  &kp W  &kp R      &kp NUMBER_5    &trans  &trans      &trans            &trans      &trans
+              &kp LEFT_SHIFT  &kp A  &kp S  &kp D      &kp NUMBER_6    &trans  &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT  &trans
+&kp NUMBER_7  &kp C           &kp Z  &kp X  &kp LCTRL  &kp F           &trans  &trans      &trans            &trans      &trans  &trans
+                                     &kp U  &kp E      &kp SPACE       &trans  &kp TAB     &to 0
             >;
         };
 
