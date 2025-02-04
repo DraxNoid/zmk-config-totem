@@ -36,7 +36,7 @@
             timeout-ms = <100>;
             key-positions = <11 12 13>;
             bindings = <&tog 5>;
-            layers = <0>;
+            layers = <0 5>;
         };
     };
 
