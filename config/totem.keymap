@@ -75,10 +75,10 @@
         Sym {
             display-name = "Sym";
             bindings = <
-                &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT  &kp DQT
-                &trans    &trans  &trans    &trans      &trans         &trans     &trans         &trans           &trans   &trans
-&studio_unlock  &trans    &trans  &trans    &trans      &trans         &kp UNDER  &kp EQUAL      &trans           &trans   &kp SLASH  &kp BACKSLASH
-                                  &trans    &trans      &trans         &trans     &trans         &trans
+                &kp EXCL  &kp AT          &kp HASH          &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT           &kp DQT
+                &trans    &trans          &trans            &trans      &trans         &trans     &trans         &trans           &trans            &trans
+&studio_unlock  &trans    &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &trans         &kp MINUS  &kp EQUAL      &kp LESS_THAN    &kp GREATER_THAN  &kp SLASH  &kp BACKSLASH
+                                          &trans            &trans      &trans         &trans     &trans         &trans
             >;
         };
 
@@ -104,10 +104,10 @@
 
         r6 {
             bindings = <
-        &kp Q      &kp G  &kp W  &kp R      &kp N5       &trans  &trans  &trans  &trans  &trans
-        &kp LSHFT  &kp A  &kp S  &kp D      &kp N6       &trans  &to 4   &trans  &trans  &trans
-&kp N7  &kp U      &kp Z  &kp X  &kp LCTRL  &kp F        &trans  &trans  &trans  &trans  &trans  &trans
-                          &kp C  &kp E      &kp SPACE    &trans  &trans  &trans
+        &kp Q      &kp G  &kp W  &kp R      &kp N5       &trans               &trans          &trans            &trans      &trans
+        &kp LSHFT  &kp A  &kp S  &kp D      &kp N6       &trans               &to 4           &trans            &trans      &trans
+&kp N7  &kp U      &kp Z  &kp X  &kp LCTRL  &kp F        &trans               &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &trans  &trans
+                          &kp C  &kp E      &kp SPACE    &kp LC(LS(LA(F24)))  &kp B           &trans
             >;
         };
 
@@ -118,42 +118,6 @@
        &kp NUMBER_6  &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp F6   &kp F7   &kp F8  &kp F9  &kp F10
 &to 0  &trans        &trans        &trans        &trans        &trans          &kp F11  &kp F12  &trans  &trans  &trans   &trans
                                    &trans        &trans        &trans          &trans   &trans   &trans
-            >;
-        };
-
-        layer_7 {
-            bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-        };
-
-        layer_8 {
-            bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-        };
-
-        layer_9 {
-            bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-        };
-
-        layer_10 {
-            bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
