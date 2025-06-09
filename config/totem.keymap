@@ -73,9 +73,9 @@
         Sym {
             display-name = "Sym";
             bindings = <
-                &kp EXCL  &kp AT          &kp HASH          &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT           &kp DQT
-                &trans    &trans          &trans            &trans      &trans         &trans     &trans         &trans           &trans            &trans
-&studio_unlock  &trans    &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &caps_word     &kp MINUS  &kp EQUAL      &kp LESS_THAN    &kp GREATER_THAN  &kp SLASH  &kp BACKSLASH
+                &kp EXCL  &kp AT          &kp HASH          &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp SQT           &kp DQT
+                &trans    &trans          &trans            &trans      &trans         &trans     &trans         &trans         &trans            &trans
+&studio_unlock  &trans    &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &caps_word     &kp MINUS  &kp EQUAL      &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH  &kp BACKSLASH
                                           &trans            &trans      &trans         &trans     &trans         &trans
             >;
         };
